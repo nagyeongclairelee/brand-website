@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Serene Yoga — 고요한 숨결</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Noto+Sans+KR:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style-v2.css" />
+</head>
+<body>
+
+  <!-- ① NAV -->
+  <header class="nav">
+    <div class="nav-inner">
+      <a href="#" class="logo">Serene Yoga</a>
+      <nav class="nav-links">
+        <a href="#about">소개</a>
+        <a href="#classes">클래스</a>
+        <a href="#story">강사진</a>
+        <a href="#contact">오시는 길</a>
+      </nav>
+      <a href="#register" class="nav-cta">FREE TRIAL</a>
+      <button class="nav-toggle" aria-label="메뉴"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <!-- ② HERO -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <p class="eyebrow">서울 · 마포구 연남동</p>
+      <h1 class="hero-title">
+        지금, 당신에게<br />
+        <em>고요한 숨결이</em><br />
+        필요한 때입니다
+      </h1>
+      <p class="hero-sub">
+        바쁜 하루 속에서 잠시 멈추고—<br />
+        자신을 위한 시간을 되찾아 보세요.
+      </p>
+      <div class="hero-btns">
+        <a href="#register" class="btn btn-white">무료 체험 신청하기</a>
+        <a href="#classes" class="btn btn-outline-white">클래스 살펴보기 →</a>
+      </div>
+    </div>
+    <div class="hero-scroll"><span>scroll</span><div class="scroll-bar"></div></div>
+  </section>
+
+  <!-- ③ MARQUEE -->
+  <div class="marquee-wrap">
+    <div class="marquee-track">
+      <span>고요함</span><span class="dot">·</span>
+      <span>회복</span><span class="dot">·</span>
+      <span>균형</span><span class="dot">·</span>
+      <span>호흡</span><span class="dot">·</span>
+      <span>치유</span><span class="dot">·</span>
+      <span>연결</span><span class="dot">·</span>
+      <span>고요함</span><span class="dot">·</span>
+      <span>회복</span><span class="dot">·</span>
+      <span>균형</span><span class="dot">·</span>
+      <span>호흡</span><span class="dot">·</span>
+      <span>치유</span><span class="dot">·</span>
+      <span>연결</span><span class="dot">·</span>
+    </div>
+  </div>
+
+  <!-- ④ PROBLEM STATEMENT -->
+  <section class="problem">
+    <div class="problem-inner">
+      <p class="section-num">01</p>
+      <div class="problem-text">
+        <p class="eyebrow">당신에게 묻고 싶습니다</p>
+        <h2 class="section-title">혹시 이런 느낌—<br /><em>어딘가 비어있는 것 같은</em></h2>
+        <div class="h-rule"></div>
+        <p class="body-text">열심히 살고 있는데도, 몸은 늘 피곤하고 마음은 자꾸 무거워지는 그 느낌. 알고 있나요? 그 신호를 더 이상 무시하지 않아도 됩니다.</p>
+        <p class="body-text">Serene Yoga는 단순한 운동 공간이 아닙니다. 일상의 무게를 내려놓고, 자신과 다시 연결되는 안식처입니다.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ⑤ STATS -->
+  <section class="stats">
+    <div class="container stats-grid">
+      <div class="stat"><span class="stat-num">8+</span><span class="stat-label">년간 운영</span></div>
+      <div class="stat-rule"></div>
+      <div class="stat"><span class="stat-num">2,400+</span><span class="stat-label">누적 수강생</span></div>
+      <div class="stat-rule"></div>
+      <div class="stat"><span class="stat-num">12</span><span class="stat-label">클래스 종류</span></div>
+      <div class="stat-rule"></div>
+      <div class="stat"><span class="stat-num">6</span><span class="stat-label">전문 강사진</span></div>
+    </div>
+  </section>
+
+  <!-- ⑥ ABOUT — 이미지 왼쪽 / 텍스트 오른쪽 -->
+  <section class="split" id="about">
+    <!-- 이미지: 앉아서 명상하는 요가 실루엣 -->
+    <div class="split-img">
+      <svg viewBox="0 0 600 720" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+        <!-- 배경 그라디언트 레이어 -->
+        <defs>
+          <linearGradient id="bg-about" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#e8d5c8"/>
+            <stop offset="60%" stop-color="#dcc8b8"/>
+            <stop offset="100%" stop-color="#c8a898"/>
+          </linearGradient>
+          <linearGradient id="light-about" x1="80%" y1="0%" x2="20%" y2="100%">
+            <stop offset="0%" stop-color="#f5ede5" stop-opacity="0.6"/>
+            <stop offset="100%" stop-color="#b89080" stop-opacity="0"/>
+          </linearGradient>
+          <radialGradient id="shadow-about" cx="50%" cy="85%" r="40%">
+            <stop offset="0%" stop-color="#8a6050" stop-opacity="0.25"/>
+            <stop offset="100%" stop-color="#8a6050" stop-opacity="0"/>
+          </radialGradient>
+        </defs>
+        <!-- 배경 -->
+        <rect width="600" height="720" fill="url(#bg-about)"/>
+        <!-- 빛 -->
+        <rect width="600" height="720" fill="url(#light-about)"/>
+        <!-- 바닥 그림자 -->
+        <rect width="600" height="720" fill="url(#shadow-about)"/>
+        <!-- 배경 천 드레이프 (오른쪽 곡선) -->
+        <path d="M420 0 C480 80 520 200 500 380 C480 520 440 620 460 720 L600 720 L600 0 Z" fill="#c8a090" opacity="0.3"/>
+        <path d="M460 0 C510 100 540 240 520 420 C500 560 470 650 490 720 L600 720 L600 0 Z" fill="#d4b0a0" opacity="0.2"/>
+        <!-- 좌하단 음영 -->
+        <path d="M0 500 Q60 480 80 580 Q100 680 0 720 Z" fill="#b89080" opacity="0.15"/>
+
+        <!-- 요가 좌식 명상 실루엣 (연화좌) -->
+        <!-- 머리 -->
+        <ellipse cx="300" cy="220" rx="52" ry="56" fill="#a07060"/>
+        <!-- 목 -->
+        <rect x="285" y="270" width="30" height="32" rx="8" fill="#a07060"/>
+        <!-- 상체 (살짝 앞으로 기울인 자세) -->
+        <path d="M210 295 Q230 280 300 278 Q370 280 390 295 Q410 340 405 390 Q400 420 300 425 Q200 420 195 390 Q188 340 210 295Z" fill="#a07060"/>
+        <!-- 왼쪽 어깨/팔 -->
+        <path d="M210 300 Q175 320 160 360 Q148 395 165 410 Q182 425 200 405 Q215 385 220 360 Q225 330 230 305Z" fill="#a07060"/>
+        <!-- 오른쪽 어깨/팔 -->
+        <path d="M390 300 Q425 320 440 360 Q452 395 435 410 Q418 425 400 405 Q385 385 380 360 Q375 330 370 305Z" fill="#a07060"/>
+        <!-- 손 (무릎 위에 올린 모습 — 왼손) -->
+        <ellipse cx="185" cy="415" rx="22" ry="14" fill="#a87060" opacity="0.9"/>
+        <!-- 손 (무릎 위에 올린 모습 — 오른손) -->
+        <ellipse cx="415" cy="415" rx="22" ry="14" fill="#a87060" opacity="0.9"/>
+
+        <!-- 연화좌: 오른 다리 -->
+        <path d="M200 420 Q180 450 170 490 Q160 530 180 555 Q210 575 260 570 Q300 568 320 560 Q295 540 285 510 Q275 480 270 450 Q255 435 235 425 Z" fill="#a07060"/>
+        <!-- 연화좌: 왼 다리 -->
+        <path d="M400 420 Q420 450 430 490 Q440 530 420 555 Q390 575 340 570 Q300 568 280 560 Q305 540 315 510 Q325 480 330 450 Q345 435 365 425 Z" fill="#a07060"/>
+        <!-- 발 (연화좌 위) -->
+        <ellipse cx="210" cy="555" rx="34" ry="18" fill="#9a6858" opacity="0.85"/>
+        <ellipse cx="390" cy="555" rx="34" ry="18" fill="#9a6858" opacity="0.85"/>
+
+        <!-- 바닥 그림자 -->
+        <ellipse cx="300" cy="580" rx="160" ry="22" fill="#8a5848" opacity="0.18"/>
+
+        <!-- 빛 하이라이트 (오른쪽 어깨) -->
+        <ellipse cx="390" cy="310" rx="28" ry="40" fill="#f0d8c8" opacity="0.2" transform="rotate(-15 390 310)"/>
+        <!-- 빛 하이라이트 (머리 위) -->
+        <ellipse cx="310" cy="195" rx="30" ry="20" fill="#f8ede0" opacity="0.25"/>
+      </svg>
+      <div class="split-badge">
+        <span class="badge-year">2016</span>
+        <span class="badge-label">년 설립</span>
+      </div>
+    </div>
+    <div class="split-text bg-cream">
+      <p class="section-num">02</p>
+      <p class="eyebrow">우리의 철학</p>
+      <h2 class="section-title">요가는 단순한<br />운동이 아닙니다</h2>
+      <div class="h-rule"></div>
+      <p class="body-text">숙련된 강사진과 함께 호흡과 움직임을 통해 신체적 유연성은 물론, 정신적 안정과 정서적 균형을 되찾아 가시기 바랍니다.</p>
+      <p class="body-text">이곳은 단순히 몸을 움직이는 공간이 아닙니다. 여러분이 일상의 무게를 내려놓고 자신의 내면과 깊이 연결될 수 있는 안식처입니다.</p>
+      <ul class="check-list">
+        <li><span class="check-mark">—</span>개인의 수준에 맞춘 맞춤형 지도</li>
+        <li><span class="check-mark">—</span>소규모 그룹으로 집중된 케어</li>
+        <li><span class="check-mark">—</span>편안하고 아늑한 스튜디오 환경</li>
+      </ul>
+      <a href="#classes" class="btn btn-primary">클래스 알아보기 →</a>
+    </div>
+  </section>
+
+  <!-- ⑦ CLASSES -->
+  <section class="classes" id="classes">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-num">03</p>
+        <p class="eyebrow">프로그램 안내</p>
+        <h2 class="section-title">나에게 맞는 클래스를<br />찾아보세요</h2>
+        <div class="h-rule centered"></div>
+      </div>
+      <div class="classes-grid">
+        <div class="class-card">
+          <p class="class-num">01</p>
+          <h3 class="class-name">하타 요가</h3>
+          <p class="class-level">입문 · 초급</p>
+          <p class="class-desc">기본 자세와 호흡법을 배우며 요가에 입문하는 클래스입니다. 처음 시작하는 분께 추천드립니다.</p>
+          <div class="class-meta"><span>60분</span><span>·</span><span>주 3회</span></div>
+        </div>
+        <div class="class-card class-card--hero">
+          <span class="hot-tag">인기</span>
+          <p class="class-num">02</p>
+          <h3 class="class-name">빈야사 요가</h3>
+          <p class="class-level">중급</p>
+          <p class="class-desc">흐르는 듯한 동작의 연결로 유연성과 근력을 함께 키웁니다. 에너지 넘치는 수련을 원하시는 분께 적합합니다.</p>
+          <div class="class-meta"><span>75분</span><span>·</span><span>주 4회</span></div>
+        </div>
+        <div class="class-card">
+          <p class="class-num">03</p>
+          <h3 class="class-name">음 요가</h3>
+          <p class="class-level">전 레벨</p>
+          <p class="class-desc">긴 시간 자세를 유지하며 깊은 이완과 명상을 경험합니다. 하루를 마무리하기에 이상적인 클래스입니다.</p>
+          <div class="class-meta"><span>60분</span><span>·</span><span>주 2회</span></div>
+        </div>
+        <div class="class-card">
+          <p class="class-num">04</p>
+          <h3 class="class-name">명상 클래스</h3>
+          <p class="class-level">전 레벨</p>
+          <p class="class-desc">집중력 향상과 스트레스 해소를 위한 마음 챙김 명상 클래스입니다. 고요한 내면을 찾아보세요.</p>
+          <div class="class-meta"><span>45분</span><span>·</span><span>주 3회</span></div>
+        </div>
+        <div class="class-card">
+          <p class="class-num">05</p>
+          <h3 class="class-name">산전·산후 요가</h3>
+          <p class="class-level">특별 프로그램</p>
+          <p class="class-desc">임산부와 산모를 위해 특별히 설계된 클래스로 몸과 마음의 변화를 안전하게 지원합니다.</p>
+          <div class="class-meta"><span>50분</span><span>·</span><span>주 2회</span></div>
+        </div>
+        <div class="class-card">
+          <p class="class-num">06</p>
+          <h3 class="class-name">아쉬탕가 요가</h3>
+          <p class="class-level">고급</p>
+          <p class="class-desc">정해진 순서에 따라 강도 높게 수련하는 전통 방식의 요가입니다. 깊은 수련을 원하시는 분께 추천합니다.</p>
+          <div class="class-meta"><span>90분</span><span>·</span><span>주 3회</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ⑧ INSTRUCTOR STORY — 텍스트 왼쪽 / 이미지 오른쪽 (교차) -->
+  <section class="split split--reverse split--cream" id="story">
+    <div class="split-text bg-beige">
+      <p class="section-num">04</p>
+      <p class="eyebrow">원장 인사말</p>
+      <h2 class="section-title">요가가 제 삶을<br /><em>다시 살게 했습니다</em></h2>
+      <div class="h-rule"></div>
+      <p class="body-text">바쁜 직장 생활 속에서 몸과 마음이 모두 지쳐가던 시절이 있었습니다. 숨이 막히는 것 같은 날들—그때 처음 매트 위에 앉아 눈을 감았고, 단 하나의 호흡이 그렇게 사람을 살릴 수 있다는 걸 처음 알았습니다.</p>
+      <p class="body-text">인도 마이소르에서 15년간 수련한 후 돌아와, 제가 받은 치유를 더 많은 분들과 나누고 싶어 Serene Yoga를 열었습니다. 이곳에서 여러분의 첫 호흡을 함께 하겠습니다.</p>
+      <div class="instructor-sig">
+        <p class="sig-name">김지현</p>
+        <p class="sig-role">원장 · RYT-500 · 아쉬탕가 공인</p>
+      </div>
+    </div>
+    <!-- 이미지: 서 있는 인물 + 드레이프 패브릭 배경 -->
+    <div class="split-img">
+      <svg viewBox="0 0 600 720" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="bg-story" x1="0%" y1="0%" x2="80%" y2="100%">
+            <stop offset="0%" stop-color="#ddd0c8"/>
+            <stop offset="50%" stop-color="#cfc0b0"/>
+            <stop offset="100%" stop-color="#c0a898"/>
+          </linearGradient>
+          <linearGradient id="drape1" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#c8a090" stop-opacity="0.5"/>
+            <stop offset="100%" stop-color="#a07868" stop-opacity="0.3"/>
+          </linearGradient>
+          <linearGradient id="light-story" x1="30%" y1="0%" x2="70%" y2="100%">
+            <stop offset="0%" stop-color="#f8ede5" stop-opacity="0.5"/>
+            <stop offset="100%" stop-color="#c0a090" stop-opacity="0"/>
+          </linearGradient>
+        </defs>
+        <rect width="600" height="720" fill="url(#bg-story)"/>
+        <rect width="600" height="720" fill="url(#light-story)"/>
+
+        <!-- 드레이프 패브릭 좌측 -->
+        <path d="M0 0 C60 100 40 280 80 420 C110 530 80 640 60 720 L0 720 Z" fill="url(#drape1)"/>
+        <path d="M0 0 C30 80 20 220 50 360 C70 470 50 600 30 720 L0 720 Z" fill="#b89080" opacity="0.25"/>
+        <!-- 드레이프 패브릭 우측 -->
+        <path d="M600 0 C540 120 560 300 520 450 C490 570 510 650 530 720 L600 720 Z" fill="#c8a898" opacity="0.35"/>
+
+        <!-- 서 있는 인물 실루엣 (나마스테 포즈 — 손 모아 가슴 앞) -->
+        <!-- 머리 -->
+        <ellipse cx="300" cy="148" rx="50" ry="54" fill="#9a7060"/>
+        <!-- 목 -->
+        <rect x="284" y="197" width="32" height="30" rx="8" fill="#9a7060"/>
+        <!-- 상체 -->
+        <path d="M215 222 Q240 210 300 208 Q360 210 385 222 Q408 268 402 340 Q396 390 300 395 Q204 390 198 340 Q192 268 215 222Z" fill="#9a7060"/>
+        <!-- 왼팔 (합장 자세) -->
+        <path d="M220 228 Q195 255 185 295 Q178 330 192 355 Q205 378 225 365 Q242 352 248 320 Q254 288 252 252 Q244 230 232 225Z" fill="#9a7060"/>
+        <!-- 오른팔 (합장 자세) -->
+        <path d="M380 228 Q405 255 415 295 Q422 330 408 355 Q395 378 375 365 Q358 352 352 320 Q346 288 348 252 Q356 230 368 225Z" fill="#9a7060"/>
+        <!-- 합장한 두 손 -->
+        <path d="M250 290 Q265 268 300 265 Q335 268 350 290 Q360 315 350 338 Q335 355 300 357 Q265 355 250 338 Q240 315 250 290Z" fill="#8a6050"/>
+        <!-- 왼 다리 -->
+        <path d="M212 390 Q200 450 194 520 Q188 590 198 650 Q208 695 240 705 Q270 715 280 690 Q290 665 285 610 Q280 555 278 490 Q276 435 270 400Z" fill="#9a7060"/>
+        <!-- 오른 다리 -->
+        <path d="M388 390 Q400 450 406 520 Q412 590 402 650 Q392 695 360 705 Q330 715 320 690 Q310 665 315 610 Q320 555 322 490 Q324 435 330 400Z" fill="#9a7060"/>
+        <!-- 발 -->
+        <ellipse cx="242" cy="706" rx="36" ry="14" fill="#8a6050" opacity="0.9"/>
+        <ellipse cx="358" cy="706" rx="36" ry="14" fill="#8a6050" opacity="0.9"/>
+        <!-- 바닥 그림자 -->
+        <ellipse cx="300" cy="718" rx="130" ry="14" fill="#7a5040" opacity="0.2"/>
+
+        <!-- 하이라이트 (왼쪽 어깨) -->
+        <ellipse cx="220" cy="240" rx="22" ry="36" fill="#f0d8c8" opacity="0.22" transform="rotate(10 220 240)"/>
+        <!-- 하이라이트 (머리 위) -->
+        <ellipse cx="308" cy="122" rx="28" ry="18" fill="#faf0e8" opacity="0.28"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- ⑨ QUOTE BANNER -->
+  <section class="quote-banner">
+    <div class="container">
+      <blockquote>
+        <p class="quote-text">"요가는 마음의 작용을 멈추는 것이다."</p>
+        <cite>— 파탄잘리, 요가수트라</cite>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- ⑩ INSTRUCTORS -->
+  <section class="instructors">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-num">05</p>
+        <p class="eyebrow">강사진 소개</p>
+        <h2 class="section-title">함께하는 사람들</h2>
+        <div class="h-rule centered"></div>
+      </div>
+      <div class="instructors-grid">
+
+        <!-- 강사 카드: 상반신 초상 실루엣 -->
+        <div class="inst-card">
+          <div class="inst-photo">
+            <svg viewBox="0 0 400 480" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <linearGradient id="inst-bg1" x1="20%" y1="0%" x2="80%" y2="100%">
+                  <stop offset="0%" stop-color="#e8d0c0"/>
+                  <stop offset="100%" stop-color="#c8a890"/>
+                </linearGradient>
+                <linearGradient id="inst-light1" x1="70%" y1="0%" x2="30%" y2="80%">
+                  <stop offset="0%" stop-color="#f8ede5" stop-opacity="0.45"/>
+                  <stop offset="100%" stop-color="#c09080" stop-opacity="0"/>
+                </linearGradient>
+              </defs>
+              <rect width="400" height="480" fill="url(#inst-bg1)"/>
+              <rect width="400" height="480" fill="url(#inst-light1)"/>
+              <!-- 배경 드레이프 -->
+              <path d="M320 0 C360 60 370 160 350 280 C330 380 340 440 360 480 L400 480 L400 0Z" fill="#c09080" opacity="0.25"/>
+              <!-- 어깨/상체 -->
+              <path d="M0 480 Q30 380 80 340 Q130 300 200 295 Q270 300 320 340 Q370 380 400 480Z" fill="#9a7060"/>
+              <!-- 목 -->
+              <rect x="182" y="252" width="36" height="50" rx="10" fill="#9a7060"/>
+              <!-- 머리 -->
+              <ellipse cx="200" cy="200" rx="72" ry="78" fill="#9a7060"/>
+              <!-- 왼팔 (어깨에서 잘림) -->
+              <path d="M80 345 Q50 370 30 410 L0 430 L0 480 Q40 460 70 430 Q95 405 105 375 Q108 360 100 348Z" fill="#9a7060"/>
+              <!-- 오른팔 (어깨에서 잘림) -->
+              <path d="M320 345 Q350 370 370 410 L400 430 L400 480 Q360 460 330 430 Q305 405 295 375 Q292 360 300 348Z" fill="#9a7060"/>
+              <!-- 하이라이트 -->
+              <ellipse cx="265" cy="225" rx="30" ry="50" fill="#f0d8c8" opacity="0.18" transform="rotate(-10 265 225)"/>
+              <ellipse cx="210" cy="162" rx="32" ry="22" fill="#faf0e8" opacity="0.25"/>
+              <!-- 바닥 페이드 -->
+              <rect x="0" y="380" width="400" height="100" fill="url(#inst-bg1)" opacity="0.15"/>
+            </svg>
+          </div>
+          <div class="inst-overlay">
+            <p class="inst-name">김지현</p>
+            <p class="inst-role">원장 · 수석 강사</p>
+            <p class="inst-cert">RYT-500 · 아쉬탕가 공인</p>
+          </div>
+          <p class="inst-bio">인도 마이소르에서 15년간 수련하고 돌아온 국내 최고의 아쉬탕가 전문가입니다.</p>
+        </div>
+
+        <div class="inst-card">
+          <div class="inst-photo">
+            <svg viewBox="0 0 400 480" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <linearGradient id="inst-bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stop-color="#ddd0c4"/>
+                  <stop offset="100%" stop-color="#c4b0a0"/>
+                </linearGradient>
+                <linearGradient id="inst-light2" x1="60%" y1="0%" x2="40%" y2="80%">
+                  <stop offset="0%" stop-color="#f5ece5" stop-opacity="0.4"/>
+                  <stop offset="100%" stop-color="#b8a090" stop-opacity="0"/>
+                </linearGradient>
+              </defs>
+              <rect width="400" height="480" fill="url(#inst-bg2)"/>
+              <rect width="400" height="480" fill="url(#inst-light2)"/>
+              <path d="M0 0 C50 80 30 200 60 320 C80 400 60 450 40 480 L0 480Z" fill="#b8a090" opacity="0.3"/>
+              <path d="M0 480 Q30 380 80 340 Q130 300 200 295 Q270 300 320 340 Q370 380 400 480Z" fill="#907060"/>
+              <rect x="182" y="252" width="36" height="50" rx="10" fill="#907060"/>
+              <ellipse cx="200" cy="200" rx="70" ry="76" fill="#907060"/>
+              <path d="M80 345 Q50 370 30 410 L0 430 L0 480 Q40 460 70 430 Q95 405 105 375 Q108 360 100 348Z" fill="#907060"/>
+              <path d="M320 345 Q350 370 370 410 L400 430 L400 480 Q360 460 330 430 Q305 405 295 375 Q292 360 300 348Z" fill="#907060"/>
+              <ellipse cx="255" cy="220" rx="28" ry="48" fill="#f0dcd0" opacity="0.18" transform="rotate(-8 255 220)"/>
+              <ellipse cx="208" cy="160" rx="30" ry="20" fill="#faf2ec" opacity="0.22"/>
+            </svg>
+          </div>
+          <div class="inst-overlay">
+            <p class="inst-name">박수연</p>
+            <p class="inst-role">빈야사 전문 강사</p>
+            <p class="inst-cert">RYT-200 · 빈야사 플로우</p>
+          </div>
+          <p class="inst-bio">부드럽고 열정적인 수업으로 초보자부터 중급자까지 누구나 즐겁게 참여할 수 있도록 돕습니다.</p>
+        </div>
+
+        <div class="inst-card">
+          <div class="inst-photo">
+            <svg viewBox="0 0 400 480" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <linearGradient id="inst-bg3" x1="30%" y1="0%" x2="70%" y2="100%">
+                  <stop offset="0%" stop-color="#e4d4c8"/>
+                  <stop offset="100%" stop-color="#ccb8a8"/>
+                </linearGradient>
+                <linearGradient id="inst-light3" x1="75%" y1="0%" x2="25%" y2="85%">
+                  <stop offset="0%" stop-color="#faf0e8" stop-opacity="0.42"/>
+                  <stop offset="100%" stop-color="#b8a090" stop-opacity="0"/>
+                </linearGradient>
+              </defs>
+              <rect width="400" height="480" fill="url(#inst-bg3)"/>
+              <rect width="400" height="480" fill="url(#inst-light3)"/>
+              <path d="M370 0 C410 90 390 220 370 350 C355 440 365 465 390 480 L400 480 L400 0Z" fill="#c0a890" opacity="0.28"/>
+              <path d="M0 480 Q30 380 80 340 Q130 300 200 295 Q270 300 320 340 Q370 380 400 480Z" fill="#988068"/>
+              <rect x="182" y="252" width="36" height="50" rx="10" fill="#988068"/>
+              <ellipse cx="200" cy="200" rx="68" ry="74" fill="#988068"/>
+              <path d="M80 345 Q50 370 30 410 L0 430 L0 480 Q40 460 70 430 Q95 405 105 375 Q108 360 100 348Z" fill="#988068"/>
+              <path d="M320 345 Q350 370 370 410 L400 430 L400 480 Q360 460 330 430 Q305 405 295 375 Q292 360 300 348Z" fill="#988068"/>
+              <ellipse cx="270" cy="228" rx="26" ry="46" fill="#f2e0d4" opacity="0.2" transform="rotate(-12 270 228)"/>
+              <ellipse cx="210" cy="158" rx="28" ry="18" fill="#faf2ec" opacity="0.26"/>
+            </svg>
+          </div>
+          <div class="inst-overlay">
+            <p class="inst-name">이미나</p>
+            <p class="inst-role">명상 · 음요가 강사</p>
+            <p class="inst-cert">RYT-200 · 마음챙김 명상</p>
+          </div>
+          <p class="inst-bio">요가 니드라와 음 요가를 통해 깊은 이완과 내면의 평화를 찾을 수 있도록 안내합니다.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ⑪ TESTIMONIALS -->
+  <section class="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-num">06</p>
+        <p class="eyebrow">수강생 후기</p>
+        <h2 class="section-title">직접 경험한 분들의 이야기</h2>
+        <div class="h-rule centered"></div>
+      </div>
+      <div class="testi-grid">
+        <div class="testi-card">
+          <p class="testi-stars">★★★★★</p>
+          <p class="testi-text">"처음에는 요가가 어려울 것 같아 망설였는데, 강사님의 친절한 지도 덕분에 어느새 3년째 꾸준히 다니고 있어요. 몸도 마음도 건강해진 것 같습니다."</p>
+          <div class="testi-author">
+            <div class="testi-avatar">이</div>
+            <div><p class="testi-name">이서연</p><p class="testi-info">빈야사 요가 · 3년 수강</p></div>
+          </div>
+        </div>
+        <div class="testi-card testi-card--featured">
+          <p class="testi-stars">★★★★★</p>
+          <p class="testi-text">"산전 요가 클래스를 통해 임신 기간 내내 몸을 편안하게 유지할 수 있었어요. 출산 후에도 산후 클래스로 빠르게 회복할 수 있었습니다. 정말 감사해요!"</p>
+          <div class="testi-author">
+            <div class="testi-avatar">최</div>
+            <div><p class="testi-name">최유진</p><p class="testi-info">산전·산후 요가 · 1년 수강</p></div>
+          </div>
+        </div>
+        <div class="testi-card">
+          <p class="testi-stars">★★★★★</p>
+          <p class="testi-text">"직장 스트레스로 힘들었는데 명상 클래스를 시작한 후 마음이 훨씬 안정되었습니다. 조용하고 편안한 공간 자체가 힐링이에요."</p>
+          <div class="testi-author">
+            <div class="testi-avatar">김</div>
+            <div><p class="testi-name">김태훈</p><p class="testi-info">명상 클래스 · 6개월 수강</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ⑫ CTA -->
+  <section class="cta-section" id="register">
+    <div class="container">
+      <div class="cta-box">
+        <p class="section-num">07</p>
+        <p class="eyebrow">지금 시작하세요</p>
+        <h2 class="cta-title">첫 수업은 무료로<br /><em>경험해보세요</em></h2>
+        <div class="h-rule centered"></div>
+        <p class="cta-desc">부담 없이 한 번 와서 직접 느껴보세요—<br />여러분을 위한 공간이 기다리고 있습니다.</p>
+        <form class="cta-form">
+          <input type="text" placeholder="이름" />
+          <input type="tel" placeholder="연락처" />
+          <select>
+            <option value="">관심 클래스 선택</option>
+            <option>하타 요가</option>
+            <option>빈야사 요가</option>
+            <option>음 요가</option>
+            <option>산전·산후 요가</option>
+            <option>명상 클래스</option>
+            <option>아쉬탕가 요가</option>
+          </select>
+          <button type="submit" class="btn btn-primary btn-block">무료 체험 신청하기</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ⑬ FOOTER -->
+  <footer class="footer" id="contact">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <p class="footer-logo">Serene Yoga</p>
+        <p class="footer-tagline">몸과 마음의 균형을 찾는 공간</p>
+        <div class="footer-socials">
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a>
+          <a href="#" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="5" width="20" height="14" rx="4"/><polygon points="10,9 16,12 10,15" fill="currentColor" stroke="none"/></svg></a>
+          <a href="#" aria-label="Kakao"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 3C6.48 3 2 6.69 2 11.25c0 2.9 1.88 5.45 4.73 6.94L5.7 21.5l4.16-2.73c.7.1 1.42.15 2.14.15 5.52 0 10-3.69 10-8.67S17.52 3 12 3z"/></svg></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>CLASSES</h4>
+        <ul>
+          <li><a href="#">하타 요가</a></li>
+          <li><a href="#">빈야사 요가</a></li>
+          <li><a href="#">음 요가</a></li>
+          <li><a href="#">명상 클래스</a></li>
+          <li><a href="#">산전·산후 요가</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>STUDIO</h4>
+        <ul>
+          <li><a href="#">강사 소개</a></li>
+          <li><a href="#">시설 안내</a></li>
+          <li><a href="#">수강권 안내</a></li>
+          <li><a href="#">공지사항</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>CONTACT</h4>
+        <p>서울시 마포구 연남동 123-45<br />2층 Serene Yoga</p>
+        <p>02-1234-5678</p>
+        <p>hello@sereneyoga.kr</p>
+        <p class="footer-hours">평일 06:30 – 21:00<br />주말 08:00 – 18:00</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2024 Serene Yoga. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="main-v2.js"></script>
+</body>
+</html>
