@@ -171,8 +171,10 @@ About 페이지 기준 순서.
 | Primary (Filled) | bg `#7c3a3a`, color `#fff`, padding `14px 32px`, uppercase, letter-spacing `0.08em`, border-radius `0` (sharp) |
 | Ghost (Outlined) | border `1px solid #7c3a3a`, color `#7c3a3a`, hover 시 fill solid |
 | Text Link | underline only, color `#7c3a3a`, 화살표 `→` 자주 사용 |
+| **CTA Accent** | bg `#9e4e62` (딥 로즈), color `#fff`, hover `#7e3a4e` + shadow, radius: 0 — 신청/등록 버튼 전용 |
 
 > **핵심**: 버튼 모서리가 **sharp(radius: 0)**. 둥근 버튼보다 더 세련되고 편집적인 느낌.
+> **CTA 강조**: 일반 버튼(`--pink-4`)과 구별되는 딥 로즈(`#9e4e62`)를 신청 버튼에만 적용.
 
 ### Navigation
 
@@ -229,6 +231,8 @@ Jillz Guerin 레퍼런스를 기반으로 **Serene Yoga** 웹사이트에 반영
 | 마키 키워드 배너 | `"고요함 · 회복 · 균형 · 호흡"` 마키 추가 |
 | 강한 개인 서사 | 원장 개인 스토리 섹션 강화 |
 | Sharp 버튼 모서리 | CTA 버튼 border-radius 줄이기 |
+| *(V3 추가)* 히어로 과도한 크기 | font-size `clamp(2rem,4.5vw,3.6rem)`, min-height `78vh`로 축소 |
+| *(V3 추가)* CTA 버튼 가시성 낮음 | 딥 로즈 `#9e4e62` CTA 전용 색상 추가 |
 
 ### 핵심 차이점 (유지할 것)
 
